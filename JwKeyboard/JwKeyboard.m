@@ -374,8 +374,8 @@
 
 #pragma 获取随机数
 -(NSString *)getRandomString:(int )rlength {
-    NSString *randomString = [NSString new];
-    NSString *s = [NSString new];
+    NSString *randomString = @"";
+    NSString *s = @"";
     //static char HEX[] = { '0', '1', '2', '3', '4', '5', '6', '7',
     //    '8', '9', 'A', 'B', 'C', 'D', 'E', 'F' };
     static char HEX[] = {'F'};
